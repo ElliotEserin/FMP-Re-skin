@@ -1,0 +1,46 @@
+{
+    "oxygen": 98.64742279052735,
+    "rateOfOxygenDecrease": 0.4000000059604645,
+    "food": 100.0,
+    "rateOfFoodDecrease": 0.30000001192092898,
+    "water": 99.32363891601563,
+    "rateOfWaterDecrease": 0.20000000298023225,
+    "_currentPlayerHealth": 100.0,
+    "maxPlayerHealth": 100.0,
+    "rateOfHealthDecrease": 2.5,
+    "currentPlayerWeight": 0.0,
+    "maxPlayerWeight": 100.0,
+    "pauseMenu": {
+        "instanceID": 114054
+    },
+    "inventoryMenu": {
+        "instanceID": 111914
+    },
+    "inventory": [],
+    "leftHand": {
+        "instanceID": 0
+    },
+    "rightHand": {
+        "instanceID": 0
+    },
+    "IUI": {
+        "instanceID": 0
+    },
+    "logText": {
+        "instanceID": 113718
+    },
+    "craftingUI": {
+        "instanceID": 111920
+    },
+    "isCovered": false,
+    "litterQuantity": 0,
+    "uISelection": true,
+    "miscLogs": [
+        {
+            "instanceID": 14014
+        },
+        {
+            "instanceID": 12776
+        }
+    ]
+}

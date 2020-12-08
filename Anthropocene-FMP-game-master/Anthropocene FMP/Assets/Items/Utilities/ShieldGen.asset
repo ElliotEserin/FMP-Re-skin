@@ -1,0 +1,31 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d6c6ba76773660d41881a70c73d4fe3e, type: 3}
+  m_Name: ShieldGen
+  m_EditorClassIdentifier: 
+  itemName: Shield Generator
+  description: A generator to produce a shield. Designed to create enclosed ecosystems.
+  weight: 0
+  quantity: 0
+  itemType: 4
+  coolDown: 1
+  restoreType: 0
+  ammountToRestore: 0
+  attackRadius: 0.5
+  damage: 0
+  numberOfBullets: 1
+  damageCollider: {fileID: 0}
+  isPlacable: 1
+  objectToPlace: {fileID: 1356465901220779167, guid: 675a18b61083aaf4d975c0f7897e970d,
+    type: 3}
+  minPlaceDistance: 0.5
+  maxPlaceDistance: 5

@@ -1,0 +1,31 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d6c6ba76773660d41881a70c73d4fe3e, type: 3}
+  m_Name: Bad Water
+  m_EditorClassIdentifier: 
+  itemName: Water (toxic)
+  clipToPlay: {fileID: 8300000, guid: ce4f70c9f857b514c88c67d80e69cef4, type: 3}
+  description: A bottle of contaminated water.
+  weight: 1
+  quantity: 0
+  itemType: 3
+  coolDown: 1
+  restoreType: 3
+  ammountToRestore: 15
+  attackRadius: 0.5
+  damage: 0
+  numberOfBullets: 1
+  damageCollider: {fileID: 0}
+  isPlacable: 0
+  objectToPlace: {fileID: 0}
+  minPlaceDistance: 0.5
+  maxPlaceDistance: 5

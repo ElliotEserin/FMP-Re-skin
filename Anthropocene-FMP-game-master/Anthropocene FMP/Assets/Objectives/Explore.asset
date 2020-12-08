@@ -1,0 +1,20 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ad810276608404d4998fc40e484c568f, type: 3}
+  m_Name: Explore
+  m_EditorClassIdentifier: 
+  goal: 5
+  objective: 7) Explore the world and survive. You need to find or craft oxygen tanks,
+    water bottles and food to survive. More crafting options will be available by
+    placing a workbench.
+  active: 0
+  complete: 0
