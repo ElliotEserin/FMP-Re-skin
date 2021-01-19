@@ -54,6 +54,15 @@ public class PlayerMovement : DynamicMovement
         animator.SetFloat("Vertical", movement.y);
         animator.SetFloat("Speed", movement.sqrMagnitude);
 
+        if (movement.y < 0)
+            animator.SetFloat("Direction", 1);
+        if (movement.y > 0)
+            animator.SetFloat("Direction", 3);
+        if (movement.x < 0)
+            animator.SetFloat("Direction", 4);
+        if (movement.x > 0)
+            animator.SetFloat("Direction", 2);
+
         //changing food
         pm.food -= movement.sqrMagnitude * pm.rateOfFoodDecrease * Time.deltaTime;
         if(pm.currentPlayerWeight > 100)
