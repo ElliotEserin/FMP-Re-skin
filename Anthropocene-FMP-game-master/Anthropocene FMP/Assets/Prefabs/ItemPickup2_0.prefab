@@ -48,6 +48,7 @@ SpriteRenderer:
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 0
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
@@ -69,9 +70,9 @@ SpriteRenderer:
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 0
-  m_SortingLayer: 0
-  m_SortingOrder: 0
+  m_SortingLayerID: 1223680647
+  m_SortingLayer: 2
+  m_SortingOrder: 1
   m_Sprite: {fileID: 5777841483388404710, guid: 5c30ad9c70cf5ef4ea60d04996a986fd,
     type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
@@ -117,9 +118,13 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   interactType: 0
   item: {fileID: 11400000, guid: ae0246bbc4d572a4797c850aa0b6d776, type: 2}
-  dialogue: {fileID: 0}
+  dialogue:
+    name: 
+    sentences: []
+    isActivated: 0
   itemNeeded: {fileID: 0}
   isConsumed: 1
+  isDisabled: 1
 --- !u!61 &5222917614004510541
 BoxCollider2D:
   m_ObjectHideFlags: 0

@@ -20,8 +20,8 @@ public class CameraMovement : MonoBehaviour
     void Update()
     {
         transform.position = targetLookAt.transform.position + offset;
-        Transform closestRegion = GetClosestRegion(regions);
-        cam.backgroundColor = Color.Lerp(cam.backgroundColor, closestRegion.GetComponent<RegionScript>().regionColour, 0.02f);
+        //Transform closestRegion = GetClosestRegion(regions);
+        //cam.backgroundColor = Color.Lerp(cam.backgroundColor, closestRegion.GetComponent<RegionScript>().regionColour, 0.02f);
     }
 
     Transform GetClosestRegion(GameObject[] regions)
