@@ -47,6 +47,7 @@ SpriteRenderer:
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 0
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
@@ -71,8 +72,7 @@ SpriteRenderer:
   m_SortingLayerID: 1223680647
   m_SortingLayer: 2
   m_SortingOrder: 0
-  m_Sprite: {fileID: 2963411684039260603, guid: 4c453593a60068c4ea5643135cb666bc,
-    type: 3}
+  m_Sprite: {fileID: 21300000, guid: bf60d56429181fe42b5ddb79039e6409, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -96,18 +96,18 @@ BoxCollider2D:
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: 0.04889542, y: 0.025341332}
+  m_Offset: {x: 0, y: 0}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
-    pivot: {x: 0.7583877, y: 0.023809714}
-    oldSize: {x: 3.6875, y: 3.8125}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 2, y: 4}
     newSize: {x: 3.6875, y: 3.8125}
     adaptiveTilingThreshold: 0.5
     drawMode: 0
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 0.38438594, y: 0.21537721}
+  m_Size: {x: 2, y: 4}
   m_EdgeRadius: 0
 --- !u!114 &-198680320671048725
 MonoBehaviour:
@@ -123,7 +123,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   interactType: 0
   item: {fileID: 11400000, guid: d1fcc3cec6e0f1f40831096c304334a0, type: 2}
-  dialogue: {fileID: 0}
+  dialogue:
+    name: 
+    sentences: []
+    isActivated: 0
   itemNeeded: {fileID: 0}
   isConsumed: 0
   isDisabled: 0

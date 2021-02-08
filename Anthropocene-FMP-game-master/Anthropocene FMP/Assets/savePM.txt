@@ -1,42 +1,30 @@
 {
-    "oxygen": 49.6169319152832,
+    "oxygen": 28.091325759887697,
     "rateOfOxygenDecrease": 0.4000000059604645,
-    "food": 62.55375671386719,
+    "food": 55.746299743652347,
     "rateOfFoodDecrease": 0.30000001192092898,
-    "water": 74.80854034423828,
+    "water": 64.04510498046875,
     "rateOfWaterDecrease": 0.20000000298023225,
-    "_currentPlayerHealth": 100.0,
+    "_currentPlayerHealth": 98.79357147216797,
     "maxPlayerHealth": 100.0,
     "rateOfHealthDecrease": 2.5,
-    "currentPlayerWeight": 14.0,
+    "currentPlayerWeight": 6.0,
     "maxPlayerWeight": 100.0,
     "pauseMenu": {
-        "instanceID": 64758
+        "instanceID": 16974
     },
     "inventoryMenu": {
-        "instanceID": 64298
+        "instanceID": 16466
     },
     "inventory": [
         {
-            "instanceID": 14510
+            "instanceID": 14466
         },
         {
-            "instanceID": 24310
+            "instanceID": 14482
         },
         {
-            "instanceID": 14516
-        },
-        {
-            "instanceID": 14518
-        },
-        {
-            "instanceID": 14532
-        },
-        {
-            "instanceID": 24056
-        },
-        {
-            "instanceID": 24210
+            "instanceID": 17566
         }
     ],
     "leftHand": {
@@ -49,7 +37,7 @@
         "instanceID": 0
     },
     "logText": {
-        "instanceID": 64688
+        "instanceID": 16900
     },
     "craftingUI": {
         "instanceID": 0
@@ -59,10 +47,10 @@
     "uISelection": true,
     "miscLogs": [
         {
-            "instanceID": 14528
+            "instanceID": 14478
         },
         {
-            "instanceID": 14514
+            "instanceID": 14462
         }
     ]
 }
